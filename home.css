@@ -55,10 +55,10 @@
 .bls-final p{font-size:13px;color:#c8c8ce;margin:0;max-width:44ch}
 .bls-final a{background:#4F7C79;color:#fff;padding:13px 26px;border-radius:8px;text-decoration:none;font-weight:700;font-size:14px;white-space:nowrap}
 .bls-case{background:#fff;border-radius:14px;padding:22px;box-shadow:0 1px 2px rgba(38,38,47,.05),0 4px 14px rgba(38,38,47,.05);display:flex;flex-direction:column;gap:14px}
-.bls-case-tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;color:#4F7C79;background:#4F7C7918;padding:3px 10px;border-radius:999px;width:fit-content}
+.bls-case-tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;color:#3A625F;background:#4F7C7918;padding:3px 10px;border-radius:999px;width:fit-content}
 .bls-case h3{font-size:15px;margin:0}
 .bls-case-imgs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .bls-case-imgs img{width:100%;border-radius:8px;border:1px solid #E4E4E8}
-.bls-case-imgs span{display:block;text-align:center;font-size:11px;color:#9A9AA4;margin-top:4px}
+.bls-case-imgs span{display:block;text-align:center;font-size:11px;color:#6B6B76;margin-top:4px}
 .bls-case p{font-size:13px;color:#5a5a64;margin:0}
 .bls-case-note{font-size:11.5px;color:#9A9AA4;font-style:italic;margin:0}
