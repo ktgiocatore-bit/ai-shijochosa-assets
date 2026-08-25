@@ -1,0 +1,64 @@
+.bls{max-width:100%;color:#26262F;font-family:"游ゴシック","Yu Gothic","Hiragino Sans",sans-serif;line-height:1.85}
+.bls *{box-sizing:border-box}
+.bls h1,.bls h2,.bls h3{font-family:"游明朝","Yu Mincho","Hiragino Mincho ProN",serif;font-weight:700;color:#1D1D24}
+.bls-eyebrow{font-size:12.5px;letter-spacing:.12em;color:#6B6B76;font-weight:700;margin:0 0 10px}
+.bls-hero h1{font-size:clamp(24px,4vw,34px);line-height:1.55;margin:0 0 14px}
+.bls-hero p{font-size:15px;color:#4a4a54;max-width:56ch;margin:0 0 22px}
+.bls-cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:28px}
+.bls-btn{display:inline-block;padding:13px 26px;border-radius:8px;font-weight:700;font-size:14.5px;text-decoration:none}
+.bls-btn-primary{background:#26262F;color:#EDEEF0}
+.bls-btn-outline{background:transparent;color:#26262F;border:1.5px solid #26262F}
+.bls-proof{display:flex;gap:0;flex-wrap:wrap;border-top:1px solid #DCDCE1;border-bottom:1px solid #DCDCE1;padding:18px 0}
+.bls-proof-item{flex:1;min-width:180px;padding:6px 20px;border-left:1px solid #DCDCE1}
+.bls-proof-item:first-child{border-left:none;padding-left:0}
+.bls-proof-item b{display:block;font-size:13.5px;color:#1D1D24;margin-bottom:2px}
+.bls-proof-item span{font-size:12px;color:#6B6B76}
+.bls-panel{background:#F7F7F5;border-radius:16px;padding:32px clamp(20px,4vw,40px);margin:44px 0}
+.bls-panel h2{font-size:clamp(19px,3vw,23px);margin:0 0 8px}
+.bls-panel .bls-lede{font-size:13.5px;color:#6B6B76;margin:0 0 24px;max-width:60ch}
+.bls-grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.bls-grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+@media (max-width:760px){.bls-grid4{grid-template-columns:repeat(2,1fr)}
+.bls-grid2{grid-template-columns:1fr}
+}
+@media (max-width:480px){.bls-grid4{grid-template-columns:1fr}
+}
+.bls-card{background:#fff;border-radius:12px;padding:20px 20px 22px;box-shadow:0 1px 2px rgba(38,38,47,.05),0 4px 14px rgba(38,38,47,.05)}
+.bls-icon{width:34px;height:34px;border-radius:8px;background:#4F7C7918;color:#4F7C79;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.bls-card h3{font-size:14.5px;margin:0 0 8px;color:#1D1D24}
+.bls-card p{font-size:13px;color:#5a5a64;margin:0}
+.bls-table-wrap{overflow-x:auto;border-radius:12px;border:1px solid #DCDCE1}
+.bls-compare{width:100%;border-collapse:collapse;background:#fff;font-size:13px;min-width:560px}
+.bls-compare th,.bls-compare td{padding:12px 14px;text-align:left;border-bottom:1px solid #E4E4E8}
+.bls-compare thead th{background:#1D1D24;color:#EDEEF0;font-weight:700;font-size:12.5px}
+.bls-compare td.bls-col-us{background:#4F7C7910;font-weight:700;color:#2f5250}
+.bls-compare th.bls-col-us{background:#4F7C79;color:#fff}
+.bls-compare tr:last-child td{border-bottom:none}
+.bls-tool-card{background:#fff;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:10px;box-shadow:0 1px 2px rgba(38,38,47,.05),0 4px 14px rgba(38,38,47,.05)}
+.bls-tool-card h3{font-size:16px;margin:0}
+.bls-tool-card p{font-size:13px;color:#5a5a64;margin:0}
+.bls-tool-tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;color:#B8891E;background:#B8891E18;padding:3px 10px;border-radius:999px;width:fit-content}
+.bls-service-row{display:flex;align-items:flex-start;gap:14px;padding:16px 0;border-bottom:1px solid #E4E4E8}
+.bls-service-row:last-child{border-bottom:none}
+.bls-service-row .bls-icon{flex:none;margin-bottom:0}
+.bls-service-row h3{font-size:14.5px;margin:0 0 4px}
+.bls-service-row p{font-size:13px;color:#5a5a64;margin:0}
+.bls-service-price{font-family:"游ゴシック",sans-serif;font-size:12.5px;color:#B8891E;font-weight:700;white-space:nowrap;margin-left:auto;padding-left:16px}
+.bls-faq{background:#fff;border-radius:10px;border:1px solid #E4E4E8;margin-bottom:10px;overflow:hidden}
+.bls-faq summary{padding:16px 18px;font-size:14px;font-weight:700;cursor:pointer;list-style:none;position:relative;color:#1D1D24}
+.bls-faq summary::-webkit-details-marker{display:none}
+.bls-faq summary::after{content:"+";position:absolute;right:18px;top:14px;font-size:18px;color:#4F7C79;font-weight:700}
+.bls-faq[open] summary::after{content:"−"}
+.bls-faq-body{padding:0 18px 18px;font-size:13.5px;color:#5a5a64}
+.bls-final{background:#1D1D24;border-radius:16px;padding:32px clamp(20px,4vw,40px);color:#EDEEF0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:20px;margin-top:44px}
+.bls-final h2{color:#fff;font-size:19px;margin:0 0 6px}
+.bls-final p{font-size:13px;color:#c8c8ce;margin:0;max-width:44ch}
+.bls-final a{background:#4F7C79;color:#fff;padding:13px 26px;border-radius:8px;text-decoration:none;font-weight:700;font-size:14px;white-space:nowrap}
+.bls-case{background:#fff;border-radius:14px;padding:22px;box-shadow:0 1px 2px rgba(38,38,47,.05),0 4px 14px rgba(38,38,47,.05);display:flex;flex-direction:column;gap:14px}
+.bls-case-tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;color:#4F7C79;background:#4F7C7918;padding:3px 10px;border-radius:999px;width:fit-content}
+.bls-case h3{font-size:15px;margin:0}
+.bls-case-imgs{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.bls-case-imgs img{width:100%;border-radius:8px;border:1px solid #E4E4E8}
+.bls-case-imgs span{display:block;text-align:center;font-size:11px;color:#9A9AA4;margin-top:4px}
+.bls-case p{font-size:13px;color:#5a5a64;margin:0}
+.bls-case-note{font-size:11.5px;color:#9A9AA4;font-style:italic;margin:0}
